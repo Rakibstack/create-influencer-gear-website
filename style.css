@@ -213,6 +213,18 @@
     height: 240px; */
     width: 100%;
   }
+  .btn-small {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 12px;
+    color: #E02C6D;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 50px;
+    
+    
+  }
 
 
 
@@ -254,6 +266,7 @@
         width: 100%;
         grid-template-columns: repeat(2 1fr);
         border: none;
+        margin-bottom: 100px;
     }
     .company-logo img{
         margin-right:24px;
@@ -274,4 +287,26 @@
          gap: 40px;
         padding: 20px;
     } 
+  }
+
+  @media screen and (max-width:586px) {
+      .card-container{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       width: 100%;
+       margin-left: 80px;
+      
+    }
+    .card-tital h3{
+       margin-top: 100px;
+    }
+  }
+  @media screen and (min-width:586px) and (max-width:840px) {
+       .card-container{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       width: 100%;
+       margin-left:40px;
+       }
+    
   }
