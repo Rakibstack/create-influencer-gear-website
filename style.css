@@ -222,11 +222,52 @@
     font-size: 1rem;
     font-weight: 700;
     margin-top: 50px;
-    
-    
   }
 
+/* products section  */
 
+.products{
+  max-width: 980px;
+  margin: 100px auto;
+}
+.product-container {
+  display: flex;
+  gap: 80px;
+  margin: 0px auto;
+}
+.product-image{
+  max-width: 440px;
+  height: 270px;
+}
+.product-image img{
+  max-width: 100%;
+}
+.product-description{
+  max-width:580px;
+  height: 200px;
+}
+.product-tital h2 {
+  color: #0A0826;
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin:6px;
+}
+.product-subtital p{
+  color: #6C6C6C;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.button-join{
+  color: #FFFFFF;
+  background-color: #E02C6D;
+  font-size: 1rem;
+  font-weight: bold;
+  gap: 8px;
+  border: none;
+  padding: 10px 24px;
+  cursor: pointer;
+}
 
 
 
