@@ -351,3 +351,26 @@
        }
     
   }
+
+
+  @media screen and (max-width:586px) {
+    .product-container{
+      flex-direction: column-reverse;
+      width: 100%;
+      margin-left: 50px;
+    }
+    .product-description{
+      margin-bottom: 80px;
+    }
+  }
+
+  @media screen and (min-width:586px) and (max-width:880px) {
+      .product-container{
+      flex-direction: column-reverse;
+      width: 100%;
+      margin-left:40px;
+    }
+     .product-description{
+      margin-bottom:40px;
+    }
+  }
